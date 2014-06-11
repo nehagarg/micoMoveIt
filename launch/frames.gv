@@ -1,0 +1,20 @@
+digraph G {
+"Arm_Link" -> "Arm_Ring_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.196 Hz\nMost recent transform: 1402305014.990 \nBuffer length: 4.961 sec\n"];
+"Shoulder_Link" -> "Arm_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"Forearm_Link" -> "Forearm_Ring_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.196 Hz\nMost recent transform: 1402305014.990 \nBuffer length: 4.961 sec\n"];
+"Arm_Link" -> "Forearm_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"Hand_Link" -> "Hand_Ring_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.196 Hz\nMost recent transform: 1402305014.990 \nBuffer length: 4.961 sec\n"];
+"Wrist_2_Link" -> "Hand_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"Shoulder_Link" -> "Shoulder_Ring_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.196 Hz\nMost recent transform: 1402305014.990 \nBuffer length: 4.961 sec\n"];
+"base_link" -> "Shoulder_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"Wrist_1_Link" -> "Wrist_1_Ring_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.196 Hz\nMost recent transform: 1402305014.990 \nBuffer length: 4.961 sec\n"];
+"Forearm_Link" -> "Wrist_1_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"Wrist_2_Link" -> "Wrist_2_Ring_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 50.196 Hz\nMost recent transform: 1402305014.990 \nBuffer length: 4.961 sec\n"];
+"Wrist_1_Link" -> "Wrist_2_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"base_link" -> "marker_link"[label="Broadcaster: /link1_broadcaster\nAverage rate: 10.192 Hz\nMost recent transform: 1402305014.578 \nBuffer length: 4.906 sec\n"];
+"odom_combined" -> "base_link"[label="Broadcaster: /virtual_joint_broadcaster_0\nAverage rate: 10.192 Hz\nMost recent transform: 1402305014.612 \nBuffer length: 4.906 sec\n"];
+"Finger_1_Proximal_Link" -> "Finger_1_Distal_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"Hand_Link" -> "Finger_1_Proximal_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"Finger_2_Proximal_Link" -> "Finger_2_Distal_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+"Hand_Link" -> "Finger_2_Proximal_Link"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.208 Hz\nMost recent transform: 1402305014.424 \nBuffer length: 4.800 sec\n"];
+}

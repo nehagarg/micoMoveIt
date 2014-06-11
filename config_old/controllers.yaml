@@ -1,0 +1,19 @@
+controller_list:
+  - name: arm_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: true
+    joints:
+      - Shoulder_Joint
+      - Arm_Joint
+      - Forearm_Joint
+      - Wrist_1_Joint
+      - Wrist_2_Joint
+  - name: gripper_controller
+    action_ns: gripper_action
+    type: GripperCommand
+    default: true
+    joints:
+      - Hand_Joint
+      - Finger_1_Proximal_Joint
+      - Finger_2_Proximal_Joint

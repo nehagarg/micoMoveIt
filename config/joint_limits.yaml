@@ -1,0 +1,51 @@
+joint_limits:
+  Arm_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Finger_1_Distal_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Finger_1_Proximal_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Finger_2_Distal_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Finger_2_Proximal_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Forearm_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Hand_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Shoulder_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Wrist_1_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0
+  Wrist_2_Joint:
+    has_velocity_limits: true
+    max_velocity: 0.785398163
+    has_acceleration_limits: false
+    max_acceleration: 0

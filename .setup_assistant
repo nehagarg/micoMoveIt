@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ada_description
+    relative_path: robots/mico.urdf
+  SRDF:
+    relative_path: config/ADA.srdf
+  CONFIG:
+    generated_timestamp: 1400227369

@@ -1,0 +1,6 @@
+   <launch>
+   <!--<node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="-0.34 0.43 0.11 0 1.57 2.62 base_link marker_link 100" />-->
+   <node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="-0.228506743908 0.0374209806323 0.836000263691 0.713656961918 0.69758951664 0.0437716208398 -0.046332411468  camera_rgb_optical_frame marker_link 100" />
+<!-- <node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="0.024 -0.096 0.736 0.707 0.686 0.117 -0.130  marker_link camera_rgb_optical_frame 100" /> -->
+   
+   </launch>

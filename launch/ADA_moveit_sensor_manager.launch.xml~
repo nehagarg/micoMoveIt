@@ -1,0 +1,4 @@
+<launch>
+<rosparam command="load" file="$(find mico_moveit_generated)/config/sensors_kinect.yaml" />
+
+</launch>
