@@ -1,5 +1,5 @@
    <launch>
-  <!--<node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="-0.16 0.34 0.10 0 1.57 3.14 base_link marker_link 100" /> -->
-    <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0.100 0.340 -0.159 0.707 0.001 -0.707 -0.001 marker_link odom_combined 100" />
-   <!-- <node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="-0.163567721844 -0.00897205062211 0.724667072296 0.706629693508 0.685621142387 0.117074944079 0.129967540503 camera_rgb_optical_frame marker_link 100" />-->
+  <!--<node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="-0.44 -0.19 -0.13 1.57 0 0 base_link marker_link 100" /> -->
+   <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0.49 -0.440 0.13 0.00 0.00 -0.707 0.707 marker_link odom_combined 100" />
+   <node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="0.05226155 0.2894 0.819 0.5488 0.54365212 -0.45623827 0.441709 camera_rgb_optical_frame marker_link 100" />
    </launch>
